@@ -1,15 +1,18 @@
+/* remove white borders when in full window mode */
 *
 {
     margin: 0;
     padding: 0;
 }
 
+/*prevent scrolling actions from client*/
 html,
 body
 {
     overflow: hidden;
 }
 
+/*adjusting the canvas to fill the whole window*/
 .webgl
 {
     position: fixed;
