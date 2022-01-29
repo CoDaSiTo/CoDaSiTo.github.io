@@ -1,18 +1,15 @@
-/* remove white borders when in full window mode */
 *
 {
     margin: 0;
     padding: 0;
 }
 
-/*prevent scrolling actions from client*/
 html,
 body
 {
     overflow: hidden;
 }
 
-/*adjusting the canvas to fill the whole window*/
 .webgl
 {
     position: fixed;
@@ -20,6 +17,81 @@ body
     left: 0;
     outline: none;
 }
+/*
+.loading-bar
+{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 2px;
+    background: #ffffff;
+    transform: scaleX(0.3);
+    transform-origin: top left;
+    transition: transform 0.5s;
+}
 
+.loading-bar.ended
+{
+    transform: scaleX(0);
+    transform-origin: 100% 0;
+    transition: transform 1.5s ease-in-out;
+}
+
+.point
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.point:hover .text{
+    opacity: 1;
+}
+
+.point.visible .label{
+    transform: scale(1,1);
+}
+
+
+.point .label
+{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 40px;
+    height: 40px;
+    background: #62121277;
+    border-radius: 50%;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 100;
+    font-size: 16px;
+    cursor: help;
+    transform: scale(0.001, 0.001);
+    transition: transform 0.3s;
+}
+
+
+.point .text
+{
+    position: absolute;
+    top: 35px;
+    left: -50px;
+    width: 100px;
+    background: #62121277;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 1.3em;
+    font-weight: 100;
+    font-size: 16px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+}
+*/
 
 /*# sourceMappingURL=main.css.map*/
